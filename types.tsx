@@ -6,6 +6,12 @@ export type RootStackParamList = {
 export type BottomTabParamList = {
   TabOne: undefined;
   TabTwo: undefined;
+  VideoPlayer:undefined;
+};
+export type TopTabParamList = {
+  TabOne: undefined;
+  TabTwo: undefined;
+  VideoPlayer:undefined;
 };
 
 export type TabOneParamList = {
@@ -14,4 +20,8 @@ export type TabOneParamList = {
 
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
+};
+
+export type VideoPlayerParamList = {
+  VideoPlayerScreen: undefined;
 };
